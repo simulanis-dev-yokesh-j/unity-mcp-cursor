@@ -1,0 +1,29 @@
+{
+  "name": "mcp-unity-cursor",
+  "version": "0.1.0",
+  "description": "Cursor plugin for Unity MCP integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "ts-node src/test.ts"
+  },
+  "keywords": [
+    "cursor",
+    "unity",
+    "mcp",
+    "plugin"
+  ],
+  "author": "FF",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
