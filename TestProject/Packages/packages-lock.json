@@ -5,7 +5,9 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.neuecc.unirx": "7.1.0",
+        "com.unity.websockets": "1.0.0"
       }
     },
     "com.unity.ai.navigation": {

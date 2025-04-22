@@ -1,0 +1,20 @@
+{
+    "name": "FF.MCPCursor.Editor",
+    "rootNamespace": "FF.MCPCursor",
+    "references": [
+        "FF.MCPCursor",
+        "UnityEngine.CoreModule",
+        "UnityEditor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+} 

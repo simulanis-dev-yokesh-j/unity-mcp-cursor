@@ -1,13 +1,13 @@
 {
-  "name": "mcp-unity-cursor",
-  "version": "0.1.0",
-  "description": "Cursor plugin for Unity MCP integration",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "cursor-plugin",
+  "version": "1.0.0",
+  "description": "Cursor plugin for Unity integration",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
-    "test": "ts-node src/test.ts"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [
     "cursor",
@@ -18,12 +18,25 @@
   "author": "FF",
   "license": "MIT",
   "dependencies": {
-    "ws": "^8.16.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.24",
-    "@types/ws": "^8.5.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

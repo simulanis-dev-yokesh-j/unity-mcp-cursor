@@ -7,6 +7,24 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
+# Visual Studio / MonoDevelop generated
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
@@ -31,30 +49,15 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Node.js
+# Node modules
 node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-.pnpm-debug.log
+package-lock.json
 
-# IDE
-.vscode/
-.idea/
-*.sln
-*.csproj
-*.unityproj
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
+# TypeScript
+*.js
+*.js.map
+*.d.ts
+dist/
 
 # OS
 .DS_Store
